@@ -19,7 +19,7 @@ const About = () => {
             <h2 className="heading">Proud to be one of the nations best clinic</h2>
             <p className='text__para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At obcaecati, rem corrupti deleniti eligendi est aperiam magnam, nulla, officiis ab molestias necessitatibus perspiciatis dolorem repellendus laborum rerum vero? Esse, voluptas.</p>
             <p className='text__para mt-[30px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At obcaecati, rem corrupti deleniti eligendi est aperiam magnam, nulla, officiis ab molestias necessitatibus perspiciatis dolorem repellendus laborum rerum vero? Esse, voluptas.</p>
-            <Link to='/'>
+            <Link to='/services'>
               <button className='btn'>Learn More</button>
             </Link>
             
