@@ -30,23 +30,23 @@ const quickLinks = [
     title: 'Home',
   },
   {
-    path: '/about',
-    title: 'About us',
-  },
-  {
     path: '/services',
     title: 'Services',
   },
   {
-    path: '/doctors',
+    path: '/doctors/65f6cc87a8fd84b542ed3d37',
     title: 'Doctors',
+  },
+  {
+    path: '/contact',
+    title: 'Contact',
   },
   {
     path: '/location',
     title: 'Location',
   },
   {
-    path: '/appointment',
+    path: '/doctors/65f6cc87a8fd84b542ed3d37',
     title: 'Book Appointment',
   },
 ]

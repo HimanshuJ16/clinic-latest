@@ -31,7 +31,7 @@ const Home = () => {
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium natus ipsam a tempora quas doloribus enim, officiis, quasi numquam obcaecati voluptate laboriosam eos? Exercitationem delectus voluptas placeat dicta blanditiis reiciendis!
                 </p>
                 <div className='btn w-[17rem]'>
-                <Link to={'/doctors/1'}>Request an Appointment</Link>
+                <Link to={'/doctors/65f6cc87a8fd84b542ed3d37'}>Request an Appointment</Link>
                 </div>
               </div>
               {/* ---------hero section---------- */}
@@ -90,7 +90,7 @@ const Home = () => {
                 <img src={icon01} alt="" />
               </div>
               <p className='text-center text-xl'>Your doctor here</p>
-              <Link to="/doctors/1"
+              <Link to="/doctors/65f6cc87a8fd84b542ed3d37"
                 className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
                 <BsArrowRight className="group-hover:text-white w-6 h-5" />
               </Link>
@@ -123,7 +123,7 @@ const Home = () => {
                 <img src={icon03} alt="" />
               </div>
               <p className='text-center text-xl'>Book Appointment</p>
-              <Link to="/doctors/1"
+              <Link to="/doctors/65f6cc87a8fd84b542ed3d37"
                 className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
                 <BsArrowRight className="group-hover:text-white w-6 h-5" />
               </Link>
@@ -172,7 +172,7 @@ const Home = () => {
                   3. View our physician who are accepting new patients, use the online scheduling tool to select an appointment time.
                 </li>
               </ul>
-              <Link to='/doctors/1'><button className='btn'>Learn More</button></Link>
+              <Link to='/doctors/65f6cc87a8fd84b542ed3d37'><button className='btn'>Learn More</button></Link>
             </div>
 
             {/* ------- feature img ---------- */}

@@ -11,7 +11,7 @@ const navLinks = [
     display: 'Home'
   },
   {
-    path:'/doctors/1',
+    path:'/doctors/65f6cc87a8fd84b542ed3d37',
     display: 'Doctor'
   },
 
@@ -84,9 +84,13 @@ const Header = () => {
           {token && user ? (
             <div>
               <Link to={`${role === "doctor" ? "/doctors/profile/me" : "/users/profile/me"}`}>
-                <figure className='w-[35px] h-[35px] rounded-full'>
-                  <img src={user?.photo} alt="" className='w-full rounded-full' />
-                </figure>
+                {user?.photo ? (
+                  <figure className='w-[35px] h-[35px] rounded-full'>
+                    <img src={user?.photo} alt="" className='w-full rounded-full' />
+                  </figure>
+                ) : (
+                  <h2>Hi, {user?.name}</h2>
+                )}
               </Link>
             </div>
           ) : (
